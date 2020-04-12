@@ -37,6 +37,9 @@
 		CE214AE52442F3BD007A8F18 /* image18.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE214AD02442F3BD007A8F18 /* image18.jpg */; };
 		CE214AE62442F3BD007A8F18 /* image19.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE214AD12442F3BD007A8F18 /* image19.jpg */; };
 		CE214AEC2442F494007A8F18 /* ImageSelectCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE214AEB2442F494007A8F18 /* ImageSelectCell.swift */; };
+		CE6530CB2442FDC700447056 /* back_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6530CA2442FDC700447056 /* back_icon.png */; };
+		CE6530CE2442FE7900447056 /* trash_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6530CC2442FE7900447056 /* trash_icon.png */; };
+		CE6530CF2442FE7900447056 /* undo_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6530CD2442FE7900447056 /* undo_icon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +75,9 @@
 		CE214AD02442F3BD007A8F18 /* image18.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image18.jpg; sourceTree = "<group>"; };
 		CE214AD12442F3BD007A8F18 /* image19.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = image19.jpg; sourceTree = "<group>"; };
 		CE214AEB2442F494007A8F18 /* ImageSelectCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSelectCell.swift; sourceTree = "<group>"; };
+		CE6530CA2442FDC700447056 /* back_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back_icon.png; sourceTree = "<group>"; };
+		CE6530CC2442FE7900447056 /* trash_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trash_icon.png; sourceTree = "<group>"; };
+		CE6530CD2442FE7900447056 /* undo_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = undo_icon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +117,9 @@
 				CE214AA72441B734007A8F18 /* Assets.xcassets */,
 				CE214AA92441B734007A8F18 /* LaunchScreen.storyboard */,
 				CE214AAC2441B734007A8F18 /* Info.plist */,
+				CE6530CA2442FDC700447056 /* back_icon.png */,
+				CE6530CC2442FE7900447056 /* trash_icon.png */,
+				CE6530CD2442FE7900447056 /* undo_icon.png */,
 				CE214ABC2442F3BD007A8F18 /* images */,
 			);
 			path = "Draw Dream";
@@ -225,11 +234,13 @@
 				CE214AE32442F3BD007A8F18 /* image8.jpg in Resources */,
 				CE214AE12442F3BD007A8F18 /* image4.jpg in Resources */,
 				CE214ADD2442F3BD007A8F18 /* image13.jpg in Resources */,
+				CE6530CB2442FDC700447056 /* back_icon.png in Resources */,
 				CE214AD22442F3BD007A8F18 /* image0.jpg in Resources */,
 				CE214AE02442F3BD007A8F18 /* image10.jpg in Resources */,
 				CE214AD72442F3BD007A8F18 /* image3.jpg in Resources */,
 				CE214AB72441C05B007A8F18 /* images2111.png in Resources */,
 				CE214AD32442F3BD007A8F18 /* image14.jpg in Resources */,
+				CE6530CF2442FE7900447056 /* undo_icon.png in Resources */,
 				CE214AE42442F3BD007A8F18 /* image2.jpg in Resources */,
 				CE214ADE2442F3BD007A8F18 /* image5.jpg in Resources */,
 				CE214AAB2441B734007A8F18 /* LaunchScreen.storyboard in Resources */,
@@ -239,6 +250,7 @@
 				CE214ADC2442F3BD007A8F18 /* image7.jpg in Resources */,
 				CE214AD92442F3BD007A8F18 /* image16.jpg in Resources */,
 				CE214ADB2442F3BD007A8F18 /* image6.jpg in Resources */,
+				CE6530CE2442FE7900447056 /* trash_icon.png in Resources */,
 				CE214AD52442F3BD007A8F18 /* image1.jpg in Resources */,
 				CE214AA62441B731007A8F18 /* Main.storyboard in Resources */,
 				CE214AD62442F3BD007A8F18 /* image17.jpg in Resources */,
