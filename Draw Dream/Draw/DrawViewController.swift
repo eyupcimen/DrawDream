@@ -54,7 +54,7 @@ class DrawViewController: UIViewController {
     }
    
     @IBAction func backLastScreen(_ sender: UIButton) {
-        print("tiklandi")
+        self.dismiss(animated: true, completion: nil)
     }
 }
 
