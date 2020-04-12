@@ -103,36 +103,6 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="c2j-Xt-u7a">
                                 <rect key="frame" x="0.0" y="0.0" width="606" height="789"/>
                             </imageView>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WdC-Zs-r6N">
-                                <rect key="frame" x="20" y="20" width="70" height="70"/>
-                                <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="arrow.left" catalog="system" translatesAutoresizingMaskIntoConstraints="NO" id="C5h-2d-GZO">
-                                        <rect key="frame" x="0.0" y="2.5" width="70" height="65"/>
-                                        <color key="tintColor" red="0.96078431369999995" green="0.0" blue="0.015686274510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PcF-sZ-dog">
-                                        <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <color key="tintColor" red="0.96078431369999995" green="0.0" blue="0.015686274510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                        <connections>
-                                            <action selector="backLastScreen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="kiB-XM-URf"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="70" id="3CZ-OT-W63"/>
-                                    <constraint firstItem="C5h-2d-GZO" firstAttribute="leading" secondItem="WdC-Zs-r6N" secondAttribute="leading" id="5he-8X-dji"/>
-                                    <constraint firstAttribute="width" constant="70" id="Bee-Za-OQg"/>
-                                    <constraint firstAttribute="trailing" secondItem="C5h-2d-GZO" secondAttribute="trailing" id="Nzn-x7-jay"/>
-                                    <constraint firstItem="PcF-sZ-dog" firstAttribute="leading" secondItem="WdC-Zs-r6N" secondAttribute="leading" id="Qns-N8-MVw"/>
-                                    <constraint firstAttribute="bottom" secondItem="C5h-2d-GZO" secondAttribute="bottom" id="bzG-5G-VTc"/>
-                                    <constraint firstItem="C5h-2d-GZO" firstAttribute="top" secondItem="WdC-Zs-r6N" secondAttribute="top" id="fkB-b6-sVF"/>
-                                    <constraint firstAttribute="bottom" secondItem="PcF-sZ-dog" secondAttribute="bottom" id="gvl-Yi-vsd"/>
-                                    <constraint firstAttribute="trailing" secondItem="PcF-sZ-dog" secondAttribute="trailing" id="rOK-B3-nFE"/>
-                                    <constraint firstItem="PcF-sZ-dog" firstAttribute="top" secondItem="WdC-Zs-r6N" secondAttribute="top" id="zWL-zO-vaE"/>
-                                </constraints>
-                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iz2-XA-zOY" customClass="Canvas" customModule="Draw_Dream" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="606" height="789"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -164,7 +134,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XIe-HE-JPV">
                                                 <rect key="frame" x="0.0" y="0.0" width="44.5" height="41"/>
                                                 <color key="tintColor" red="0.96078431369999995" green="0.0" blue="0.015686274510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" image="arrow.uturn.left" catalog="system"/>
+                                                <state key="normal" image="undo_icon.png"/>
                                                 <connections>
                                                     <action selector="undo:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Zon-w4-BJU"/>
                                                 </connections>
@@ -172,7 +142,7 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BbL-4H-TBT">
                                                 <rect key="frame" x="44.5" y="0.0" width="44.5" height="41"/>
                                                 <color key="tintColor" red="0.96078431369999995" green="0.0" blue="0.015686274510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" image="trash.fill" catalog="system"/>
+                                                <state key="normal" image="trash_icon.png"/>
                                                 <connections>
                                                     <action selector="allClear:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Pth-4l-oOz"/>
                                                 </connections>
@@ -230,6 +200,36 @@
                                     <constraint firstAttribute="trailing" secondItem="mdb-Ua-05C" secondAttribute="trailing" id="k0q-hV-64v"/>
                                 </constraints>
                             </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="WdC-Zs-r6N">
+                                <rect key="frame" x="20" y="20" width="70" height="70"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="back_icon.png" translatesAutoresizingMaskIntoConstraints="NO" id="C5h-2d-GZO">
+                                        <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
+                                        <color key="tintColor" systemColor="systemRedColor" red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </imageView>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="PcF-sZ-dog">
+                                        <rect key="frame" x="0.0" y="0.0" width="70" height="70"/>
+                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <color key="tintColor" red="0.96078431369999995" green="0.0" blue="0.015686274510000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <action selector="backLastScreen:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2yV-f1-4oW"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="3CZ-OT-W63"/>
+                                    <constraint firstItem="C5h-2d-GZO" firstAttribute="leading" secondItem="WdC-Zs-r6N" secondAttribute="leading" id="5he-8X-dji"/>
+                                    <constraint firstAttribute="width" constant="70" id="Bee-Za-OQg"/>
+                                    <constraint firstAttribute="trailing" secondItem="C5h-2d-GZO" secondAttribute="trailing" id="Nzn-x7-jay"/>
+                                    <constraint firstItem="PcF-sZ-dog" firstAttribute="leading" secondItem="WdC-Zs-r6N" secondAttribute="leading" id="Qns-N8-MVw"/>
+                                    <constraint firstAttribute="bottom" secondItem="C5h-2d-GZO" secondAttribute="bottom" id="bzG-5G-VTc"/>
+                                    <constraint firstItem="C5h-2d-GZO" firstAttribute="top" secondItem="WdC-Zs-r6N" secondAttribute="top" id="fkB-b6-sVF"/>
+                                    <constraint firstAttribute="bottom" secondItem="PcF-sZ-dog" secondAttribute="bottom" id="gvl-Yi-vsd"/>
+                                    <constraint firstAttribute="trailing" secondItem="PcF-sZ-dog" secondAttribute="trailing" id="rOK-B3-nFE"/>
+                                    <constraint firstItem="PcF-sZ-dog" firstAttribute="top" secondItem="WdC-Zs-r6N" secondAttribute="top" id="zWL-zO-vaE"/>
+                                </constraints>
+                            </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
@@ -263,8 +263,8 @@
         </scene>
     </scenes>
     <resources>
-        <image name="arrow.left" catalog="system" width="128" height="98"/>
-        <image name="arrow.uturn.left" catalog="system" width="128" height="112"/>
-        <image name="trash.fill" catalog="system" width="121" height="128"/>
+        <image name="back_icon.png" width="512" height="512"/>
+        <image name="trash_icon.png" width="256" height="256"/>
+        <image name="undo_icon.png" width="512" height="512"/>
     </resources>
 </document>
