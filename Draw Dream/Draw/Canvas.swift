@@ -13,7 +13,7 @@ class Canvas : UIView {
     
     fileprivate var lines = [Line]()
     fileprivate var strokeColor = UIColor.red
-    fileprivate var strokeWidth : Float = 2
+    fileprivate var strokeWidth : Float = 10
     
     func setStrokeColor ( _ color : UIColor) {
         self.strokeColor = color
